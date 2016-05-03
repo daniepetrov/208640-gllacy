@@ -25,7 +25,7 @@ h2 {
 .icon {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(img/sprite.svg);
+    background-image: url(sprite.svg);
 }
 .icon-caw {
     width: 32px;
@@ -47,78 +47,68 @@ h2 {
     height: 32px;
     background-position: -144px 0;
 }
-.icon-footer-logo {
-    width: 94px;
-    height: 32px;
-    background-position: -192px 0;
-}
 .icon-heart {
     width: 37px;
     height: 32px;
-    background-position: -336px 0;
+    background-position: -192px 0;
 }
 .icon-icecream {
     width: 32px;
     height: 32px;
-    background-position: -384px 0;
+    background-position: -240px 0;
 }
 .icon-insta {
     width: 32px;
     height: 32px;
-    background-position: -432px 0;
+    background-position: -288px 0;
 }
 .icon-leaf {
     width: 32px;
     height: 32px;
-    background-position: -480px 0;
+    background-position: -336px 0;
 }
 .icon-login {
     width: 34px;
     height: 32px;
-    background-position: -528px 0;
+    background-position: -384px 0;
 }
 .icon-login-black {
     width: 34px;
     height: 32px;
-    background-position: -576px 0;
-}
-.icon-logo {
-    width: 77px;
-    height: 32px;
-    background-position: -624px 0;
+    background-position: -432px 0;
 }
 .icon-magnifiy-black {
     width: 32px;
     height: 32px;
-    background-position: 0 -48px;
+    background-position: -480px 0;
 }
 .icon-magnify {
     width: 32px;
     height: 32px;
-    background-position: -48px -48px;
+    background-position: -528px 0;
 }
 .icon-radio-bold {
     width: 32px;
     height: 32px;
-    background-position: -96px -48px;
+    background-position: -576px 0;
 }
 .icon-radio-thin {
     width: 32px;
     height: 32px;
-    background-position: -144px -48px;
+    background-position: -624px 0;
 }
 .icon-termometer {
     width: 32px;
     height: 32px;
-    background-position: -192px -48px;
+    background-position: -672px 0;
 }
 .icon-tw {
     width: 32px;
     height: 32px;
-    background-position: -240px -48px;
+    background-position: -720px 0;
 }
 .icon-vk {
     width: 32px;
     height: 32px;
-    background-position: -288px -48px;
+    background-position: 0 -48px;
 }
