@@ -832,6 +832,10 @@ header .form-glacy {
 .range-controls .toggle-min {
   left: 36px;
 }
+
+.range-controls .toggle:hover {
+  cursor: pointer;
+}
 .range-controls .toggle-max {
   left: 133px;
 }
