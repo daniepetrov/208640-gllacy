@@ -1071,19 +1071,17 @@ body > input[id|="btn"] {
 }
 .products-item h2 {
   display: inline;
-
   font-weight: 500;
   font-size: 16px;
+  position: relative;
+  z-index: 5;
   line-height: 14px;
   text-align: center;
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 .products-item a {
   position: relative;
-
   display: block;
-
   color: #ffffff;
   text-decoration: none;
 }
@@ -1100,8 +1098,8 @@ body > input[id|="btn"] {
 .products-item img {
   width: 100%;
   height: auto;
-
   border-radius: 160px;
+  position: relative;
 }
 .products-price {
   position: absolute;
