@@ -8,18 +8,17 @@ body {
   background-color: #849d8f;
 }
 h1 {
-  line-height: 1.5;
   margin: 0 0 23px 0;
+
   font-size: 35px;
+  line-height: 1.5;
   line-height: 41px;
   color: #ffffff;
 }
-
 h2 {
   font-size: 24px;
-    line-height: 1.5;
+  line-height: 1.5;
 }
-
 h3 {
   font-size: 20px;
 }
@@ -435,19 +434,20 @@ header .form-glacy {
 }
 .header-cart:hover .cart-wrapper {
   color: #323232;
-  background: #F8F7F4;
+
+  background: #f8f7f4;
 }
 .header-cart:hover .icon-cart {
   background-position: 0 0;
 }
 .header-cart.full .cart-wrapper {
-  background-color: #F8F7F4;
   color: #313131;
+
+  background-color: #f8f7f4;
 }
 .header-cart.full .icon-cart {
   background-position: 0 0;
 }
-
 .header-cart.full:hover .cart-modal {
   top: 50px;
 
@@ -992,9 +992,9 @@ body > input[id|="btn"] {
   border-radius: 15px;
 }
 .offers article h2 {
+  height: 41px;
   margin: 0;
   padding: 0;
-  height: 41px;
   overflow: hidden;
 
   font-size: 35px;
@@ -1017,21 +1017,24 @@ body > input[id|="btn"] {
 }
 .products-item {
   position: relative;
+
   display: inline-block;
   box-sizing: border-box;
   width: 25%;
   margin-bottom: 23px;
   padding: 10px 1.11% 0;
+
   vertical-align: top;
-  border: none;
   text-align: center;
   color: #ffffff;
+
+  border: none;
 }
 .products-item:hover {
   background: rgba(255, 255, 255, 0.3);
+  border: none;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border: none;
 }
 .products-item:hover h2 {
   border: transparent;
@@ -1058,8 +1061,10 @@ body > input[id|="btn"] {
   position: absolute;
   bottom: 0;
   left: 0;
+
   width: 100%;
   padding: 22px 0 21px;
+
   background: rgba(255, 255, 255, 0.3);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -1199,10 +1204,11 @@ body > input[id|="btn"] {
   overflow-y: hidden;
 }
 .news-blog h3 {
-  font-size: 16px;
   margin-top: 0;
   margin-bottom: 5px;
+
   font-weight: 500;
+  font-size: 16px;
 }
 .news-blog a {
   display: inline;
@@ -1271,9 +1277,6 @@ body > input[id|="btn"] {
 .contacts {
   position: relative;
 }
-
-
-
 .contacts-block {
   position: absolute;
   top: 62px;
@@ -1350,11 +1353,9 @@ body > input[id|="btn"] {
 
   border-radius: 13px;
 }
-
 .products-pages-list li:last-child > a {
   display: inline;
 }
-
 .products-pages-list a:hover {
   background: rgba(255, 255, 255, 0.2);
 }
@@ -1778,6 +1779,7 @@ input:focus {
 }
 
 /*hide placeholder*/
+
 :focus::-webkit-input-placeholder {
   color: transparent;
 }
