@@ -14,10 +14,11 @@ link.addEventListener("click", function(event) {
   event.preventDefault();
   popup.classList.add("modal-content-show");
   overlay.classList.add("modal-overlay-show");
-     });
+});
 
 close.addEventListener("click", function(event) {
-       event.preventDefault();
-       popup.classList.remove("modal-content-show");
-       overlay.classList.remove("modal-overlay-show");
-     });
+   event.preventDefault();
+   popup.classList.remove("modal-content-show");
+   overlay.classList.remove("modal-overlay-show");
+ });
+
