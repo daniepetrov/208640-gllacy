@@ -435,12 +435,19 @@ header .form-glacy {
 }
 .header-cart:hover .cart-wrapper {
   color: #323232;
-
-  background: #f8f7f4;
+  background: #F8F7F4;
 }
 .header-cart:hover .icon-cart {
   background-position: 0 0;
 }
+.header-cart.full .cart-wrapper {
+  background-color: #F8F7F4;
+  color: #313131;
+}
+.header-cart.full .icon-cart {
+  background-position: 0 0;
+}
+
 .header-cart.full:hover .cart-modal {
   top: 50px;
 
@@ -987,6 +994,8 @@ body > input[id|="btn"] {
 .offers article h2 {
   margin: 0;
   padding: 0;
+  height: 41px;
+  overflow: hidden;
 
   font-size: 35px;
   line-height: 41px;
@@ -1263,9 +1272,7 @@ body > input[id|="btn"] {
   position: relative;
 }
 
-/*.contacts .map {
-  width: 100% !important;
-}*/
+
 
 .contacts-block {
   position: absolute;
@@ -1768,4 +1775,18 @@ input:focus {
   height: 12px;
 
   background-position: -56px -249px;
+}
+
+/*hide placeholder*/
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+:focus::-moz-placeholder {
+  color: transparent;
+}
+:focus:-moz-placeholder {
+  color: transparent;
+}
+:focus:-ms-input-placeholder {
+  color: transparent;
 }
