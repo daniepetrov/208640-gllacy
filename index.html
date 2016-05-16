@@ -18,7 +18,7 @@
       <div class="container">
         <div class="rubber clearfix">
           <nav class="header-nav">
-            <div class="logo" href="index.html">
+            <div class="logo">
               <img src="img/logo.svg" width="154" height="64" alt="Глейси">
             </div>
             <ul class="main-menu">
@@ -38,9 +38,7 @@
           <div class="header-user">
             <div class="header-search">
               <div class="search-wrapper">
-                <svg class="icon-search">
-                  <use xlink:href="img/symbol-defs.svg#icon-search"></use>
-                </svg>
+                <span class="icon-search"></span>
               </div>
               <form class="search-modal form-glacy" action="#">
                 <input type="search" name="search" value="Что ищем?" onfocus="(this.value == 'Что ищем?') &amp;&amp; (this.value = '')" onblur="(this.value == '') &amp;&amp; (this.value = 'Что ищем?')">
@@ -49,9 +47,7 @@
             </div>
             <div class="header-login">
               <a class="login-wrapper" href="#">
-                <svg class="icon-login">
-                  <use xlink:href="img/symbol-defs.svg#icon-login"></use>
-                </svg>Вход</a>
+                <span class="icon-login"></span>Вход</a>
               <form class="login-modal form-glacy" action="#">
                 <input type="email" name="email" value="Электронная почта" onfocus="(this.value == 'Электронная почта') &amp;&amp; (this.value = '')" onblur="(this.value == '') &amp;&amp; (this.value = 'Электронная почта')">
                 <div class="input-modifier">Электронная почта</div>
@@ -67,15 +63,8 @@
             </div>
             <div class="header-cart">
               <a class="cart-wrapper" href="#">
-                <svg class="icon-cart">
-                  <use xlink:href="img/symbol-defs.svg#icon-cart"></use>
-                </svg>
-                <svg class="icon-cart-full">
-                  <use xlink:href="img/symbol-defs.svg#icon-cart-full"></use>
-                </svg>Пусто</a>
-
+                <span class="icon-cart"></span>Пусто</a>
               <form class="cart-modal form-glacy" action="#">
-
                 <div class="cart-modal-table">
                   <div class="table-row">
                     <div class="table-cell p-del">
@@ -153,63 +142,63 @@
             </div>
           </section>
           <section class="products">
-              <article class="products-item">
-                <div class="products-label"></div>
-                <a href="#">
-                  <div class="products-img-wrapper">
-                    <img src="img/products/1.jpg" width="267" height="267" alt="">
-                    <div class="products-price">310₽<span class="price-small">/кг</span></div>
-                  </div>
-                  <h2 class="products-name">Сливочное с апельсиновым джемом и цитрусовой стружкой</h2>
-                </a>
-                <div class="products-hover">
-                  <div class="hover-block">
-                    <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
-                  </div>
+            <article class="products-item">
+              <div class="products-label"></div>
+              <a href="#">
+                <div class="products-img-wrapper">
+                  <img src="img/products/1.jpg" width="267" height="267" alt="">
+                  <div class="products-price">310₽<span class="price-small">/кг</span></div>
                 </div>
-              </article>
-              <article class="products-item">
-                <div class="products-label"></div>
-                <a href="#">
-                  <div class="products-img-wrapper"><img src="img/products/2.jpg" width="267" height="267" alt="">
-                    <div class="products-price">380₽<span class="price-small">/кг</span></div>
-                  </div>
-                  <h2 class="products-name">Сливочно-кофейное с кусочками шоколада</h2>
-                </a>
-                <div class="products-hover">
-                  <div class="hover-block">
-                    <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
-                  </div>
+                <h2 class="products-name">Сливочное с апельсиновым джемом и цитрусовой стружкой</h2>
+              </a>
+              <div class="products-hover">
+                <div class="hover-block">
+                  <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
                 </div>
-              </article>
-              <article class="products-item">
-                <div class="products-label"></div>
-                <a href="#">
-                  <div class="products-img-wrapper"> <img src="img/products/3.jpg" width="267" height="267" alt="">
-                    <div class="products-price">355₽<span class="price-small">/кг</span></div>
-                  </div>
-                  <h2 class="products-name">Сливочно-клубничное с<br>присыпкой из белого шоколада</h2>
-                </a>
-                <div class="products-hover">
-                  <div class="hover-block">
-                    <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
-                  </div>
+              </div>
+            </article>
+            <article class="products-item">
+              <div class="products-label"></div>
+              <a href="#">
+                <div class="products-img-wrapper"><img src="img/products/2.jpg" width="267" height="267" alt="">
+                  <div class="products-price">380₽<span class="price-small">/кг</span></div>
                 </div>
-              </article>
-              <article class="products-item">
-                <div class="products-label"></div>
-                <a href="#">
-                  <div class="products-img-wrapper"> <img src="img/products/4.jpg" width="267" height="267" alt="">
-                    <div class="products-price">415₽<span class="price-small">/кг</span></div>
-                  </div>
-                  <h2 class="products-name">Сливочное крем-брюле с карамельной подливкой</h2>
-                </a>
-                <div class="products-hover">
-                  <div class="hover-block">
-                    <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
-                  </div>
+                <h2 class="products-name">Сливочно-кофейное с кусочками шоколада</h2>
+              </a>
+              <div class="products-hover">
+                <div class="hover-block">
+                  <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
                 </div>
-              </article>
+              </div>
+            </article>
+            <article class="products-item">
+              <div class="products-label"></div>
+              <a href="#">
+                <div class="products-img-wrapper"> <img src="img/products/3.jpg" width="267" height="267" alt="">
+                  <div class="products-price">355₽<span class="price-small">/кг</span></div>
+                </div>
+                <h2 class="products-name">Сливочно-клубничное с<br>присыпкой из белого шоколада</h2>
+              </a>
+              <div class="products-hover">
+                <div class="hover-block">
+                  <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
+                </div>
+              </div>
+            </article>
+            <article class="products-item">
+              <div class="products-label"></div>
+              <a href="#">
+                <div class="products-img-wrapper"> <img src="img/products/4.jpg" width="267" height="267" alt="">
+                  <div class="products-price">415₽<span class="price-small">/кг</span></div>
+                </div>
+                <h2 class="products-name">Сливочное крем-брюле с карамельной подливкой</h2>
+              </a>
+              <div class="products-hover">
+                <div class="hover-block">
+                  <a class="btn btn-small products-btn" href="#">Быстрый просмотр</a>
+                </div>
+              </div>
+            </article>
           </section>
 
           <section class="features">
@@ -217,29 +206,21 @@
               <h1>Магазин Глейси  — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h1>
               <div class="column">
                 <div class="feautures-item">
-                  <svg class="icon-icecream">
-                    <use xlink:href="img/symbol-defs.svg#icon-icecream"></use>
-                  </svg>
+                  <span class="icon-icecream"></span>
                   <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
                 </div>
                 <div class="feautures-item">
-                  <svg class="icon-leaf">
-                    <use xlink:href="img/symbol-defs.svg#icon-leaf"></use>
-                  </svg>
+                  <span class="icon-leaf"></span>
                   <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
                 </div>
               </div>
               <div class="column">
                 <div class="feautures-item">
-                  <svg class="icon-cow">
-                    <use xlink:href="img/symbol-defs.svg#icon-cow"></use>
-                  </svg>
+                  <span class="icon-cow"></span>
                   <p>Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
                 </div>
                 <div class="feautures-item">
-                  <svg class="icon-term">
-                    <use xlink:href="img/symbol-defs.svg#icon-term"></use>
-                  </svg>
+                  <span class="icon-term"></span>
                   <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.</p>
                 </div>
               </div>
@@ -300,36 +281,28 @@
               <li>
                 <a class="social-btn social-btn-twitter" href="">
                   <div class="i-wrapper">
-                    <svg class="icon-tw">
-                      <use xlink:href="img/symbol-defs.svg#icon-tw"></use>
-                    </svg>
+                    <span class="icon-tw"></span>
                   </div>
                 </a>
               </li>
               <li>
                 <a class="social-btn social-btn-instagram" href="">
                   <div class="i-wrapper">
-                    <svg class="icon-inst">
-                      <use xlink:href="img/symbol-defs.svg#icon-inst"></use>
-                    </svg>
+                    <span class="icon-inst"></span>
                   </div>
                 </a>
               </li>
               <li>
                 <a class="social-btn social-btn-facebook" href="">
                   <div class="i-wrapper">
-                    <svg class="icon-fb">
-                      <use xlink:href="img/symbol-defs.svg#icon-fb"></use>
-                    </svg>
+                    <span class="icon-fb"></span>
                   </div>
                 </a>
               </li>
               <li>
                 <a class="social-btn social-btn-vk" href="">
                   <div class="i-wrapper">
-                    <svg class="icon-vk-bg">
-                      <use xlink:href="img/symbol-defs.svg#icon-vk"></use>
-                    </svg>
+                    <span class="icon-vk"></span>
                   </div>
                 </a>
               </li>
@@ -337,9 +310,7 @@
           </section>
           <section class="footer-userlinks">
             <ul>
-              <li><b>    <svg class="icon-heart">
-                <use xlink:href="img/symbol-defs.svg#icon-heart"></use>
-              </svg><a href="#">Для поставщиков</a></b></li>
+              <li><b><span class="icon-heart"></span><a href="#">Для поставщиков</a></b></li>
               <li><a href="#">О производстве</a></li>
             </ul>
             <ul>
@@ -349,9 +320,7 @@
           </section>
           <section class="footer-copyright">
             <div class="copyright-wrapper">
-              <svg class="icon-footer-logo">
-                <use xlink:href="img/symbol-defs.svg#icon-footer-logo"></use>
-              </svg>
+              <span class="icon-footer-logo"></span>
               <p>Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> © 2016</p>
             </div>
           </section>
