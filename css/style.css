@@ -1006,14 +1006,13 @@ body > input[id|="btn"] {
 }
 .products-item {
   position: relative;
-
   display: inline-block;
   box-sizing: border-box;
   width: 25%;
   margin-bottom: 23px;
   padding: 10px 1.11% 0;
-
   vertical-align: top;
+  border: none;
   text-align: center;
   color: #ffffff;
 }
@@ -1021,6 +1020,7 @@ body > input[id|="btn"] {
   background: rgba(255, 255, 255, 0.3);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  border: none;
 }
 .products-item:hover h2 {
   border: transparent;
@@ -1045,12 +1045,10 @@ body > input[id|="btn"] {
 }
 .hover-block {
   position: absolute;
-  bottom: -1px;
+  bottom: 0;
   left: 0;
-
   width: 100%;
-  padding: 22px 0;
-
+  padding: 22px 0 21px;
   background: rgba(255, 255, 255, 0.3);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
