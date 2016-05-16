@@ -86,16 +86,14 @@ header a {
 }
 .menu-item {
   position: relative;
-
   display: inline-block;
-
   font-size: 16px;
+  margin-right: 1px;
 }
 .menu-item > a {
   display: block;
   margin-bottom: 8px;
-  padding: 7px 14px 7px 14px;
-
+  padding: 7px 14px;
   font-weight: 700;
   line-height: 18px;
   color: #ffffff;
@@ -104,17 +102,10 @@ header a {
 .menu-item span {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.menu-item > a:hover span {
-  border-bottom: 1px solid rgba(249, 172, 159, 0.3);
-}
 .menu-item:first-child > a span {
   border-bottom: transparent;
 }
-.menu-item > a:hover,
-.menu-item > a:active {
-  color: #ffbc9e;
-}
-.menu-item:first-child > a:hover {
+.menu-item > a:hover {
   color: #323223;
 
   background: #f7f6f3;
