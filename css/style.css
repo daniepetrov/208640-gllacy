@@ -1779,7 +1779,7 @@ input:focus {
   background-position: -56px -249px;
 }
 
-/*hide placeholder2*/
+/*hide placeholder*/
 
 :focus::-webkit-input-placeholder {
   color: transparent;
