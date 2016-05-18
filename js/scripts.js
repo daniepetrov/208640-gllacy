@@ -17,8 +17,16 @@ link.addEventListener("click", function(event) {
 });
 
 close.addEventListener("click", function(event) {
-   event.preventDefault();
-   popup.classList.remove("modal-content-show");
-   overlay.classList.remove("modal-overlay-show");
- });
+  event.preventDefault();
+  popup.classList.remove("modal-content-show");
+  overlay.classList.remove("modal-overlay-show");
+});
 
+window.addEventListener("keydown", function(event) {
+  if (event.keyCode === 27) {
+    if (popup.classList.contains("modal-content-show")) {
+      popup.classList.remove("modal-content-show");
+      overlay.classList.remove("modal-overlay-show");
+    }
+  }
+});

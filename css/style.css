@@ -32,6 +32,8 @@ img {
 
   display: inline-block;
 
+  vertical-align: middle;
+
   background-image: url(../img/sprite.svg);
   background-repeat: no-repeat;
 }
@@ -91,6 +93,7 @@ header a {
   margin-right: 1px;
 
   font-size: 16px;
+  vertical-align: top;
 }
 .menu-item > a {
   display: block;
@@ -375,6 +378,8 @@ header .form-glacy {
   padding: 8px 17px;
   padding-left: 44px;
 
+  vertical-align: middle;
+
   background: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
 }
@@ -393,9 +398,8 @@ header .form-glacy {
   padding: 13px;
 }
 .login-links {
-  display: inline-block;
   float: right;
-  margin-top: 2px;
+  margin-top: 4px;
 
   vertical-align: top;
 }
@@ -404,12 +408,13 @@ header .form-glacy {
 
   font-size: 13px;
   line-height: 12px;
+  vertical-align: top;
   color: #323232;
 
   border-bottom: 1px solid #adacaa;
 }
 .login-links a:first-child {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 .login-links a:hover,
 .login-links a:focus,
@@ -468,6 +473,7 @@ header .form-glacy {
   padding: 8px 17px;
   padding-left: 43px;
 
+  vertical-align: middle;
   text-align: left;
 
   background: rgba(255, 255, 255, 0.2);
@@ -503,7 +509,7 @@ header .form-glacy {
   height: 14px;
 
   font-size: 0;
-  line-height: 6px;
+  vertical-align: middle;
   text-align: center;
 }
 .p-del a::before {
@@ -544,7 +550,7 @@ header .form-glacy {
 }
 .cart-modal-table .p-del {
   width: 10px;
-  padding: 0 0;
+  padding: 7px 0 0;
 }
 .cart-modal-table .p-img {
   width: 33px;
@@ -661,6 +667,11 @@ header .form-glacy {
 .filter-col .select-wrapper:hover .icon-caret-down {
   background-position: -84px -249px;
 }
+.select-wrapper .icon-caret-down:hover ~ select {
+  color: #323232;
+
+  background-color: #ffffff;
+}
 .filter-col select {
   padding: 7px 32px 7px 15px;
 
@@ -676,6 +687,9 @@ header .form-glacy {
   -webkit-appearance: none;
      -moz-appearance: none;
       -ms-appearance: none;
+}
+.filter-col select option {
+  color: #323232;
 }
 .filter-col select::-ms-expand {
   display: none;
@@ -1088,6 +1102,8 @@ body > input[id|="btn"] {
   display: inline-block;
   padding-right: 13px;
   padding-left: 13px;
+
+  vertical-align: middle;
 }
 .products-img-wrapper {
   position: relative;
@@ -1275,8 +1291,10 @@ body > input[id|="btn"] {
 }
 .contacts {
   position: relative;
+
   height: 430px;
-  background: #ECE5C8;
+
+  background: url("../img/map.jpg") no-repeat center center;
 }
 .contacts-block {
   position: absolute;
@@ -1308,6 +1326,7 @@ body > input[id|="btn"] {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  vertical-align: middle;
 }
 .contacts-block p:nth-of-type(2) {
   margin-bottom: 6px;
@@ -1391,6 +1410,7 @@ body > input[id|="btn"] {
 }
 .footer-copyright p {
   margin: 0;
+  margin-top: 6px;
 
   font-size: 12px;
   line-height: 16px;
@@ -1462,22 +1482,19 @@ body > input[id|="btn"] {
   text-align: center;
 }
 .footer-userlinks ul {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-  font-size: 13px;
-  text-align: left;
-}
-.footer-userlinks ul {
   position: relative;
   right: 11px;
 
+  display: inline-block;
   max-width: 180px;
+  margin: 0;
+  padding: 0;
   padding-left: 23px;
 
+  list-style: none;
+  font-size: 13px;
   vertical-align: top;
+  text-align: left;
 }
 .footer-userlinks ul:first-child {
   margin-right: 4px;
@@ -1498,6 +1515,7 @@ body > input[id|="btn"] {
   display: inline-block;
 
   font-weight: 700;
+  vertical-align: middle;
   color: #ffffff;
   text-decoration: none;
   text-shadow: rgba(165, 32, 11, 0.76) 0 2px 5px;
@@ -1598,6 +1616,8 @@ input:focus {
 }
 .modal-content-show {
   display: block;
+
+  animation: bounce 0.6s;
 }
 .modal-content-close {
   position: absolute;
@@ -1677,6 +1697,20 @@ input:focus {
 }
 .modal-overlay-show {
   display: block;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .icon-footer-logo {
   position: static;
